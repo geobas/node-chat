@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Node Chat UI</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+
+        <div id="container">
+
+            <div id="namesWrapper">
+                <h2>Node Chat UI</h2>
+                <p>Create Username:</p>
+                <div id="error"></div>
+                <form id="usernameForm">
+                    <input size="35" id="username">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div id="mainWrapper">
+                <h2>Chat room</h2>
+                <div id="chatWrapper">
+                    <div id="chatWindow"></div>
+                    <form id="messageForm">
+                        <input size="35" id="message" placeholder="Type Something...">
+                        <input type="submit" value="Say It!">
+                    </form>
+                </div>
+
+                <div id="userWrapper">
+                    <div id="users"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>

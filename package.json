@@ -1,0 +1,9 @@
+{
+    "name": "Node Chat UI",
+    "version": "0.0.1",
+    "private": "true",
+    "dependencies":{
+        "socket.io": "*",
+        "express": "*"
+    }
+}
