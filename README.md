@@ -1,6 +1,6 @@
-# A chat application in Node.js
+## A chat application in Node.js
 
-## This is the source code for a very simple chat example based on [Socket.IO](http://socket.io/)
+### This is the source code for a very simple chat example based on [Socket.IO](http://socket.io/)
 
 ### To get this application up and running:
 
