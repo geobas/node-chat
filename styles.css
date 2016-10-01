@@ -46,3 +46,12 @@ body{
 input{
     height:30px;
 }
+
+#error {
+    padding: 10px 0px;
+    display: none;
+}
+
+.current {
+    font-weight: bold;
+}
