@@ -9,7 +9,7 @@ app = express();
 server = require('http').createServer(app); // Create HTTP server
 app.use(express.static(application_root)); // Where to serve static content
 
-io = require('socket.io').listen(server);
+io = require('socket.io')(server);
 
 usernames = [];
 
